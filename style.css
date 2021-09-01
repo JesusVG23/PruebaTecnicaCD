@@ -1,0 +1,135 @@
+
+body {
+    background:rgb(255,193,114);
+    font-family: Arial;
+}
+#content{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+header.titulo{
+    background:#26798E ;
+    margin: 15px;
+    font-family: cursive;
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px;
+}
+header h2{
+    color:white ;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+
+.cajas{
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    
+}
+.divs{
+    padding: 1em;
+    margin: 0 auto;
+    float: left;
+   
+}
+#div1{
+    width: 45%;
+    background:#ffe3b3;
+    border-radius: 10%;
+   text-align: center;
+   font-size: 100%;
+   margin: 10px;
+}
+#div2{
+    width: 45%;
+    background:#ffe3b3;
+    border-radius: 10%;
+   text-align: center;
+   font-size: 100%;
+   margin: 10px;
+}
+#div3{
+    width: 95%;
+    background:#ffe3b3;
+    border-radius: 10%;
+   text-align: center;
+   font-size: 100%;
+   margin: 10px;
+}
+.boton{
+  
+    background: #26798E;
+    font-size: 150%;
+    border:none;
+    font-family: cursive;
+    border-radius: 15%;
+    box-shadow: 3px 3px 3px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background:white;
+
+}
+.menuBoton{
+    margin: 40px 50px;
+    position: fixed;
+    z-index: 10;
+    bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .menuBoton {
+       font-size: 14px;
+       padding: 12px 20px;
+       bottom: 20px;
+       left: 20px;
+   }
+} 
+#estadoñ{
+    size: 40;
+    margin: 15px;
+
+}
+.menuBoton img{
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 40%;
+}
+.menuAbierto{
+    background-color:#26798e ;
+    box-sizing: 2px 6px 5px 2px rgb(66,66,66) ;
+    width: 50%;
+    height: 180%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+.menuAbierto ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.menuAbierto ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration:none;
+    padding: 10px 50px;
+    cursor: pointer;
+
+}
+
+.menuAbierto ul li:hover{
+    background-color: white;
+    color: black;
+}
+.activar{
+transform: translate(-800px);
+}
